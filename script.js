@@ -1,41 +1,5 @@
 let buttonTest = document.getElementById("test-button");
 
-
-
-//event listener for press on cellphones
-document.addEventListener("touchstart", function (event) {
-    touchStart(event);
-});
-
-function touchStart(event) {
-    //write the touchstart event
-    let audio = new Audio();
-
-    switch (event.target.id) {
-        case "A":
-            audio.src = "./pianosounds/A.mp3";
-            audio.play();
-            console.log("Key 'A' is pressed!")
-            break;
-        case "S":
-            audio.src = "./pianosounds/S.mp3";
-            audio.play();
-            console.log("Key 'S' is pressed!")
-            break;
-        case "D":
-            audio.src = "./pianosounds/D.mp3";
-            audio.play();
-            console.log("Key 'D' is pressed!")
-            break;
-        case "F":
-            audio.src = "./pianosounds/F.mp3";
-            audio.play();
-            console.log("Key 'F' is pressed!")
-            break;
-
-    }
-}
-
 document.addEventListener("keydown", function (event) {
     keyboardPresses(event);
 });
