@@ -22,17 +22,12 @@ body {
     position: relative;
 }
 
- /*.white-keys:hover {*/
- /*    background-color: black    ;*/
- /*}*/
-
-
 .black-keys {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     width: 500px;
-    margin-top: -180px; /* Adjust the value as needed to position the black keys */
+    margin-top: -180px;
     margin-right: 40px;
 
 }
@@ -40,7 +35,7 @@ body {
 .black-keys kbd {
     background-color: black;
     color: white;
-    margin-left: 30px; /* Adjust the value as needed to position the black keys */
+    margin-left: 30px;
     width: 35px;
     height: 40px;
     line-height: 60px;

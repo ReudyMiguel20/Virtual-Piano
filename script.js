@@ -1,7 +1,6 @@
 let buttonTest = document.getElementById("test-button");
 
-// Q: How to handle any keyboard events on the page?
-// A: Use the "keydown" event
+
 document.addEventListener("keydown", function (event) {
     keyboardPresses(event);
 });
