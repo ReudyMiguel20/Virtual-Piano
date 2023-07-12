@@ -1,0 +1,73 @@
+body {
+    background-color: antiquewhite;
+}
+
+#Piano {
+    position: relative;
+}
+
+.white-keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 27%;
+    margin-top: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #ccc;
+    box-shadow: 0 0 10px 5px #ccc;
+    z-index: 1;
+    position: relative;
+}
+
+ /*.white-keys:hover {*/
+ /*    background-color: black    ;*/
+ /*}*/
+
+
+.black-keys {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500px;
+    margin-top: -180px; /* Adjust the value as needed to position the black keys */
+    margin-right: 40px;
+
+}
+
+.black-keys kbd {
+    background-color: black;
+    color: white;
+    margin-left: 30px; /* Adjust the value as needed to position the black keys */
+    width: 35px;
+    height: 40px;
+    line-height: 60px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 5px #ccc;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    z-index: 10;
+
+}
+
+kbd {
+    color: black;
+    background-color: white;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    height: 100px;
+    line-height: 100px;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
